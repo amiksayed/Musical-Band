@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.top-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 30px;
+}
+
+.title{
+    font-size: 23px;
+}
+
+.link{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    font-size: 18px;
+}
+
+.link:hover{
+    color:rgb(18, 121, 218);
+}
+
+.image-banner{
+    position: relative;
+}
+
+.image-banner img{
+    width: 100%;
+    height: 750px;
+}
+
+.image-content{
+    width: 100%;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 350px;
+}
+
+.band-details{
+    font-size: 64px;
+    font-weight: 600;
+}
+
+.image-content p{
+    font-size:24px;
+    font-weight: 100;
+}
+
+#join-button{
+    margin-top: 15px;
+    width: 160px;
+    height: 40px;
+    background: white;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    font-size: large;
+    font-weight: 600;
+    position: absolute;
+    top: 300px;
+    left: 600px;
+}
+
+.members-profile{
+    margin: 80px 10%;
+}
+
+.members-profile h2{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 100px;
+}
+
+.members-container{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.members{
+    text-align: center;
+    padding: 20px 40px;
+}
+
+
+.members img{
+    width: 140px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.members h3{
+    font-size: 14px;
+}
+
+.members h4{
+    font-size: 14px;
+    color: rgb(87, 87, 87);
+}
+
+.clients-section{
+    margin: 80px 10%;
+}
+
+.clients-section h2{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 100px;
+}
+
+.reviews-container{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.reviews{
+    text-align: center;
+    /* position: relative; */
+    padding: 20px 50px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.reviews:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: scale(1.03);
+}
+
+.reviews img{
+    width: 80px;
+    /* position: absolute;
+    top: 120px;
+    left: 120px; */
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.reviews h3{
+    /* position: absolute; */
+    /* top: 254px;
+    left: 126px; */
+    font-size: 14px;
+}
+
+.reviews h4{
+    /* position: absolute;
+    top: 275px;
+    left: 146px; */
+    font-size: 14px;
+    color: rgb(87, 87, 87);
+}
+
+.gallery-section{
+    margin: 80px 10%;
+}
+
+.gallery-section h2{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 100px;
+}
+
+.gallery-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.galleries{
+    text-align: center;
+    /* position: relative; */
+    padding: 20px 50px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.galleries:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: scale(1.03);
+}
+
+.galleries img{
+    width: 300px;
+    height: 300px;
+    
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.galleries h3{
+    /* position: absolute; */
+    /* top: 254px;
+    left: 126px; */
+    font-size: 14px;
+}
+
+.galleries h4{
+    /* position: absolute;
+    top: 275px;
+    left: 146px; */
+    font-size: 14px;
+    color: rgb(87, 87, 87);
+}
+
+
